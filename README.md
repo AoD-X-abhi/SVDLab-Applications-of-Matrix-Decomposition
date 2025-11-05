@@ -15,9 +15,7 @@
 
 **Singular Value Decomposition (SVD)** is a cornerstone of linear algebra, widely applied in image processing, data compression, and pattern recognition.
 
-\[
-A = U \Sigma V^T
-\]
+A = U Σ V^T
 
 - **U** → Left singular vectors (orthogonal)  
 - **Σ** → Singular values (energy of features)  
@@ -37,16 +35,11 @@ In this repository, we explore **five real-world applications of SVD** implement
 - Keep top-*k* singular values (low-rank approximation)  
 - Reconstruct using reduced matrices  
 
-\[
-A_k = U_k \Sigma_k V_k^T, \quad k < \text{rank}(A)
-\]
+A_k = U_k Σ_k V_k^T,  k < \text{rank}(A)
 
 **✨ Results:**
 - High-quality reconstruction with reduced file size  
 - Adjustable compression ratio  
-
-📸 **Sample Output:**  
-![Image Compression](Results/compression_result.png)
 
 ---
 
@@ -61,9 +54,6 @@ A_k = U_k \Sigma_k V_k^T, \quad k < \text{rank}(A)
 🧾 **Observation:**  
 Low-rank reconstruction filters out high-frequency noise effectively.
 
-📸 **Sample Output:**  
-![Image Denoising](Results/denoising_result.png)
-
 ---
 
 ### 💧 3️⃣ Image Watermarking using SVD
@@ -77,9 +67,6 @@ Low-rank reconstruction filters out high-frequency noise effectively.
 **🔐 Advantages:**
 - Robust against compression, scaling, and minor distortions  
 - High imperceptibility  
-
-📸 **Sample Output:**  
-![Image Watermarking](Results/watermark_result.png)
 
 ---
 
@@ -99,9 +86,6 @@ Low-rank reconstruction filters out high-frequency noise effectively.
 - Secure data transfer  
 - Confidential image sharing  
 
-📸 **Sample Output:**  
-![Image Steganography](Results/steganography_result.png)
-
 ---
 
 ### 🧠 5️⃣ Face Recognition using SVD
@@ -118,8 +102,6 @@ Low-rank reconstruction filters out high-frequency noise effectively.
 3. Compare projections for recognition  
 
 📊 **Dataset:** ORL or custom face dataset  
-📸 **Sample Output:**  
-![Face Recognition](Results/face_recognition_output.png)
 
 ---
 
