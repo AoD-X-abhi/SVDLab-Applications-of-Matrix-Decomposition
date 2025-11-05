@@ -5,7 +5,7 @@
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2021a%2B-orange?logo=mathworks)](https://www.mathworks.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub Repo](https://img.shields.io/badge/Repository-SVD--Applications-blue?logo=github)](https://github.com/<your-username>/SVD-Applications)
+[![GitHub Repo](https://img.shields.io/badge/Repository-SVD--Applications-blue?logo=github)](https://github.com/AoD-X-abhi/SVDLab-Applications-of-Matrix-Decomposition.git)
 
 </div>
 
@@ -150,4 +150,4 @@ SVD distinguishes **essential signal components** (large singular values) from *
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<AoD-X-abhi>/SVD-Applications.git
+   https://github.com/AoD-X-abhi/SVDLab-Applications-of-Matrix-Decomposition.git
