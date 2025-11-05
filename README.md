@@ -35,8 +35,6 @@ In this repository, we explore **five real-world applications of SVD** implement
 - Keep top-*k* singular values (low-rank approximation)  
 - Reconstruct using reduced matrices  
 
-A_k = U_k Σ_k V_k^T,  k < \text{rank}(A)
-
 **✨ Results:**
 - High-quality reconstruction with reduced file size  
 - Adjustable compression ratio  
