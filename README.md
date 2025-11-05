@@ -150,4 +150,4 @@ SVD distinguishes **essential signal components** (large singular values) from *
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/SVD-Applications.git
+   git clone https://github.com/<AoD-X-abhi>/SVD-Applications.git
